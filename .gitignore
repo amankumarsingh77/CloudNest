@@ -1,0 +1,57 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Dependency directories
+vendor/
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+.gitignore
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Next.js build output
+.next/
+
+# Node modules (for Next.js or other frontend dependencies)
+node_modules/
+
+# npm package lock file (optional, depends on your project structure)
+package-lock.json
+
+# Yarn lock file (optional, if you are using Yarn)
+yarn.lock
+
+# Go module files (optional, can be included depending on your workflow)
+go.sum
+go.mod
+
+# Coverage and test results
+coverage/
+*.out
+
+# Backup and temporary files
+*.swp
+*~
